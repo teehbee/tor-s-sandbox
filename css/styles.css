@@ -1,3 +1,5 @@
+/* Main page */
+
 body {
   margin: 0 auto;
   max-width: 900px;
@@ -22,7 +24,12 @@ header,
 .project-box {
   border-radius: 10px;
   background-color: #97BC62;
-  
+}
+
+.project-box p {
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 15px;
 }
 
 h1 {
@@ -57,4 +64,20 @@ li a {
   text-decoration: none;
   font-size: 1.5em;
   color: #242222;
+}
+
+/* Project 1 - Digital clock  */
+
+#digital-clock {
+  background-color: #FFF;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  font-family: Handjet;
+  font-weight: bold;
+  font-size: 3em;
+  letter-spacing: 2px;
+  color: yellow;
+  background-color: #000;;
 }
