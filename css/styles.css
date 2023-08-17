@@ -1,0 +1,60 @@
+body {
+  margin: 0 auto;
+  max-width: 900px;
+  text-align: center;
+  font-family: Righteous;
+  background-color: #2C5F2D; 
+  color: #242222;
+}
+
+header,
+main {
+  padding: 5px;
+  margin: 10px 5px;
+}
+
+header img {
+  max-width: 50%;
+}
+
+header,
+.content-list,
+.project-box {
+  border-radius: 10px;
+  background-color: #97BC62;
+  
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2,
+h3 {
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+
+h3 {
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  float: left;
+  display: flex;
+  align-items: center;
+  padding: 20px 10px;
+}
+
+li a {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #242222;
+}
