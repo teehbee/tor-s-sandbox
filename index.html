@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Righteous">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Handjet">
-  <script defer src="index.js"></script>
+  <script defer src="index.js" type="module"></script>
   <title>Tor's Sandbox | Homepage</title>
   
 </head>
@@ -26,22 +26,32 @@
 
     <div class="content-list">
       <ul>
-        <li><a href="#project-1">Project 1: </a></li>
-        <li><a href="#project-2">Project 2: </a></li>
+        <li><a href="#project-1">Project 1: Digital clock</a></li>
+        <li><a href="#project-2">Project 2: Random quote generator</a></li>
         <li><a href="#project-3">Project 3: </a></li>
       </ul>
     </div>
     <div class="project-box" id="project-1">
-      <h3>Project 1: </h3>
+      <h3>Project 1: Digital clock </h3>
       <p>A simple digital clock which implements the "new Date" function in JavaScript.</p>
-        <div id="digital-clock">
-
-        </div>
+        <div id="digital-clock"></div>
     </div>
     <div class="project-box" id="project-2">
-      <h3>Project 2: </h3>
+      <h3>Project 2: Trump Quotes</h3>
+      <p>A small generator providing you with a random quote from Donald Trump at a click of a button. Training task for utilizing API's.</p>
+      <div class="quote-pic-and-text">
+      <img src="./img/trump-3123765_640.png" alt="picture of Donald Trump">
+      <p id="trump-quote"></p>
+    </div>
+      <div id="quote-generator">
+        <button type="button" id="quote-button" class="new-quote-button">
+          Show me!
+        </button>
+      </div>
     </div>
   </main>
-  
+  <footer>
+    <h6>Pictures from Pixabay.com</h6>
+  </footer>
 </body>
 </html>

@@ -10,7 +10,8 @@ body {
 }
 
 header,
-main {
+main,
+footer {
   padding: 5px;
   margin: 10px 5px;
 }
@@ -20,8 +21,10 @@ header img {
 }
 
 header,
+footer,
 .content-list,
-.project-box {
+.project-box
+ {
   border-radius: 10px;
   background-color: #97BC62;
 }
@@ -42,20 +45,16 @@ h3 {
   font-weight: lighter;
 }
 
-h3 {
+h3,
+h6 {
   padding: 10px;
 }
 
 ul {
   list-style-type: none;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
 }
 
 li {
-  float: left;
-  display: flex;
   align-items: center;
   padding: 20px 10px;
 }
@@ -80,4 +79,40 @@ li a {
   letter-spacing: 2px;
   color: yellow;
   background-color: #000;;
+}
+
+/* Project 2 - Quote generator */
+
+button {
+  margin: 10px;
+  padding: 8px;
+  font-family: Inter;
+  font-weight: semi-bold;
+  font-size: 1.2em;
+  background-color: #000;
+  color: yellow;
+  border: none;
+}
+
+.project-box img {
+  height: auto;
+  margin: 0 auto;
+  width: 10vw;
+  min-width: 150px;
+  padding: 30px;
+}
+
+.quote-pic-and-text p {
+  font-size: 2em;
+}
+
+@media (min-width: 800px) {
+  .quote-pic-and-text {
+    display: flex;
+    align-items: center;
+  }
+  .quote-pic-and-text img,
+  .quote-pic-and-text p {
+    width: 35%;
+  }
 }
